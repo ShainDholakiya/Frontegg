@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useEffect } from "react";
 import { ContextHolder } from "@frontegg/rest-api";
@@ -28,7 +27,7 @@ function App() {
   const handlePortalClick = () => {
     AdminPortal.show();
   };
-  
+
   return (
     <div className="bg-[#F5F6F8] h-screen pt-5">
       {isAuthenticated ? (
