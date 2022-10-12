@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { FronteggProvider } from '@frontegg/react';
 
 const contextOptions = {
-  baseUrl: process.env.PROD_BASE_URL,
-  clientId: process.env.PROD_CLIENT_ID
+  baseUrl: 'https://app-5ku2lxxfg0g1.frontegg.com',
+  clientId: '4029fcf4-2bd9-4e23-90ca-4b9031bca4cf'
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
